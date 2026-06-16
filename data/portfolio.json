@@ -11,7 +11,12 @@
 
     "socials": [
         {
-            "name": "GitHub",
+            "name": "GitHub (OLD)",
+            "icon": "fa-brands fa-github",
+            "url": "https://github.com/ema-aguado?tab=overview&from=2021-12-01&to=2021-12-31"
+        },
+        {
+            "name": "GitHub (WIP)",
             "icon": "fa-brands fa-github",
             "url": "https://github.com/EmanuelAguado"
         },
