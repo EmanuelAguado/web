@@ -1,0 +1,39 @@
+{
+    "first_name": "Emanuel",
+    "last_name": "Aguado Pérez",
+
+    "nickname": "Ema",
+
+    "title": "Technical Director",
+    "subtitle": "Pipeline Developer and 3D Generalist",
+
+    "status": "Work In Progress",
+
+    "socials": [
+        {
+            "name": "GitHub",
+            "icon": "fa-brands fa-github",
+            "url": "https://github.com/EmanuelAguado"
+        },
+        {
+            "name": "ArtStation",
+            "icon": "fa-brands fa-artstation",
+            "url": "https://www.artstation.com/emanuelaguado/profile"
+        },
+        {
+            "name": "LinkedIn",
+            "icon": "fa-brands fa-linkedin",
+            "url": "https://www.linkedin.com/in/emanuel-aguado-pérez/"
+        },
+        {
+            "name": "Email",
+            "icon": "fa-solid fa-envelope",
+            "url": "mailto:ema.aguado@gmail.com"
+        },
+        {
+            "name": "Download CV",
+            "icon": "fa-solid fa-file-arrow-down",
+            "url": "./cv/Emanuel_Aguado_Perez_CV.pdf"
+        }
+    ]
+}
