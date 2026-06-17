@@ -6,8 +6,10 @@
 
 :root {
     --bg: #09090b;
-    --card: rgba(255, 255, 255, 0.04);
-    --border: rgba(255, 255, 255, 0.12);
+    --card: rgba(255,255,255,.04);
+    --card-hover: rgba(255,255,255,.06);
+    --border: rgba(255,255,255,.08);
+    --border-hover: rgba(255,255,255,.16);
     --text: #ffffff;
     --muted: #a1a1aa;
     --accent: #66b3ff;
@@ -19,9 +21,9 @@ html {
 
 body {
     font-family: "Inter", sans-serif;
-    min-height: 100vh;
     background: var(--bg);
     color: var(--text);
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -30,53 +32,68 @@ body {
     inset: 0;
     z-index: -1;
     background:
-        radial-gradient(circle at 15% 20%, rgba(0, 140, 255, 0.18), transparent 35%),
-        radial-gradient(circle at 85% 80%, rgba(132, 94, 255, 0.18), transparent 35%),
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03), transparent 60%);
+        radial-gradient(circle at 15% 20%, rgba(0,140,255,.18), transparent 35%),
+        radial-gradient(circle at 85% 80%, rgba(132,94,255,.18), transparent 35%),
+        radial-gradient(circle at 50% 50%, rgba(255,255,255,.03), transparent 60%);
 }
 
 .background::before {
     content: "";
     position: absolute;
     inset: 0;
+
     background-image:
         linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+
     background-size: 60px 60px;
-    mask-image: radial-gradient(circle at center, black 40%, transparent 90%);
+
+    mask-image:
+        radial-gradient(circle at center,
+        black 40%,
+        transparent 90%);
 }
 
 .container {
-    width: min(1100px, 90%);
+    width: min(1200px, 92%);
     margin: 0 auto;
     padding: 6rem 0;
+}
+
+/* -------------------------------- */
+/* HERO */
+/* -------------------------------- */
+
+.hero {
+    text-align: center;
 }
 
 .status {
     display: inline-flex;
     align-items: center;
     gap: .5rem;
+
     padding: .7rem 1rem;
+
     border-radius: 999px;
-    border: 1px solid var(--border);
+
+    border: 1px solid rgba(255,255,255,.12);
+
     background: rgba(255,255,255,.04);
+
     color: var(--muted);
+
     margin-bottom: 2rem;
-    backdrop-filter: blur(10px);
+
     text-transform: uppercase;
     letter-spacing: .08em;
     font-size: .8rem;
-}
-
-.hero {
-    text-align: center;
 }
 
 h1 {
     font-size: clamp(3rem, 8vw, 6rem);
     line-height: 1;
     letter-spacing: -0.05em;
-    margin-bottom: 1rem;
     font-weight: 800;
 }
 
@@ -87,6 +104,7 @@ h1 {
         #66b3ff,
         #8b7cff
     );
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -94,6 +112,7 @@ h1 {
 .aka {
     color: #8f8f98;
     font-size: 1rem;
+    margin-top: .5rem;
     margin-bottom: 2rem;
     letter-spacing: .1em;
 }
@@ -116,29 +135,39 @@ h1 {
 .btn {
     display: flex;
     align-items: center;
-    gap: .8rem;
-    text-decoration: none;
-    color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 16px;
-    background: var(--card);
-    border: 1px solid var(--border);
-    backdrop-filter: blur(12px);
-    transition: all .25s ease;
-    min-width: 180px;
     justify-content: center;
+    gap: .8rem;
+
+    min-width: 180px;
+
+    padding: 1rem 1.5rem;
+
+    border-radius: 16px;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: .25s ease;
 }
 
 .btn:hover {
     transform: translateY(-4px);
-    border-color: rgba(255,255,255,.3);
-    background: rgba(255,255,255,.08);
+
+    background: var(--card-hover);
+
+    border-color: var(--border-hover);
+
     box-shadow: 0 10px 40px rgba(0,0,0,.3);
 }
 
-.btn i {
-    font-size: 1.2rem;
-}
+/* -------------------------------- */
+/* TIMELINE */
+/* -------------------------------- */
 
 .timeline-section {
     margin-top: 8rem;
@@ -147,8 +176,7 @@ h1 {
 .timeline-section h2 {
     text-align: center;
     margin-bottom: 4rem;
-    font-size: 2.2rem;
-    font-weight: 700;
+    font-size: 2rem;
 }
 
 .timeline {
@@ -160,23 +188,26 @@ h1 {
 .timeline::before {
     content: "";
     position: absolute;
+
     left: 180px;
+
     top: 0;
     bottom: 0;
+
     width: 2px;
-    background: rgba(102,179,255,.35);
+
+    background: rgba(102,179,255,.25);
 }
 
 .timeline-item {
     display: grid;
     grid-template-columns: 140px 80px 1fr;
     margin-bottom: 3rem;
-    align-items: flex-start;
 }
 
 .timeline-date {
     text-align: right;
-    padding-top: 12px;
+    padding-top: 14px;
     color: var(--muted);
     font-weight: 500;
 }
@@ -184,53 +215,53 @@ h1 {
 .timeline-marker {
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
 .timeline-icon {
     width: 48px;
     height: 48px;
+
     border-radius: 50%;
-    background: var(--bg);
+
     border: 2px solid var(--accent);
+
+    background: var(--bg);
+
     color: var(--accent);
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     z-index: 2;
-    box-shadow: 0 0 20px rgba(102,179,255,.15);
 }
 
 .timeline-card {
-    background: rgba(255,255,255,.04);
-    border: 1px solid rgba(255,255,255,.08);
-    backdrop-filter: blur(12px);
-    border-radius: 16px;
+    display: block;
+
+    text-decoration: none;
+    color: inherit;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
     padding: 1.5rem;
-    position: relative;
+
     transition: .25s ease;
 }
 
 .timeline-card:hover {
-    background: rgba(255,255,255,.06);
-    border-color: rgba(255,255,255,.12);
-}
+    transform: translateY(-3px);
 
-.timeline-card::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 18px;
-    width: 20px;
-    height: 20px;
-    background: rgba(255,255,255,.04);
-    border-left: 1px solid rgba(255,255,255,.08);
-    border-top: 1px solid rgba(255,255,255,.08);
-    transform: rotate(-45deg);
+    background: var(--card-hover);
+
+    border-color: rgba(102,179,255,.3);
 }
 
 .timeline-card h3 {
-    font-size: 1.25rem;
     margin-bottom: .25rem;
 }
 
@@ -245,12 +276,243 @@ h1 {
     line-height: 1.7;
 }
 
+.timeline-tags {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    padding: .25rem .75rem;
+
+    border-radius: 999px;
+
+    border: 1px solid rgba(102,179,255,.2);
+
+    background: rgba(102,179,255,.1);
+
+    color: var(--accent);
+
+    font-size: .75rem;
+    font-weight: 600;
+}
+
+/* -------------------------------- */
+/* BACK BUTTON */
+/* -------------------------------- */
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+
+    padding: .75rem 1rem;
+
+    margin-bottom: 3rem;
+
+    border-radius: 12px;
+
+    border: 1px solid var(--border);
+
+    background: var(--card);
+
+    color: var(--text);
+
+    text-decoration: none;
+
+    transition: .25s ease;
+}
+
+.back-link:hover {
+    background: var(--card-hover);
+    border-color: var(--border-hover);
+}
+
+/* -------------------------------- */
+/* STUDIO PAGE */
+/* -------------------------------- */
+
+.studio-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.studio-header .timeline-icon {
+    margin: 0 auto 1.5rem auto;
+}
+
+.studio-header h1 {
+    margin-bottom: .5rem;
+}
+
+.studio-header h2 {
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.studio-description {
+    max-width: 900px;
+    margin: 2rem auto;
+    line-height: 1.8;
+    color: var(--muted);
+}
+
+.studio-projects {
+    margin-top: 4rem;
+}
+
+.studio-projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* -------------------------------- */
+/* PROJECT GRID */
+/* -------------------------------- */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    display: block;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: .25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(102,179,255,.3);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 1rem;
+}
+
+/* -------------------------------- */
+/* PROJECT PAGE */
+/* -------------------------------- */
+
+.project-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.project-banner {
+    width: 100%;
+    max-height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    margin-bottom: 2rem;
+
+    border: 1px solid var(--border);
+}
+
+.project-header h1 {
+    margin-bottom: 1rem;
+}
+
+.project-studio {
+    display: inline-flex;
+    align-items: center;
+
+    margin-bottom: 2rem;
+
+    padding: .5rem 1rem;
+
+    border-radius: 999px;
+
+    background: rgba(102,179,255,.1);
+
+    border: 1px solid rgba(102,179,255,.2);
+
+    color: var(--accent);
+
+    text-decoration: none;
+
+    transition: .25s ease;
+}
+
+.project-studio:hover {
+    background: rgba(102,179,255,.15);
+}
+
+.project-description {
+    max-width: 900px;
+    margin: auto;
+
+    color: var(--muted);
+
+    line-height: 1.8;
+}
+
+.project-gallery-section {
+    margin-top: 5rem;
+}
+
+.project-gallery-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-gallery img {
+    width: 100%;
+
+    border-radius: 16px;
+
+    border: 1px solid var(--border);
+
+    transition: .25s ease;
+}
+
+.project-gallery img:hover {
+    transform: translateY(-4px);
+}
+
+/* -------------------------------- */
+/* FOOTER */
+/* -------------------------------- */
+
 .footer {
     margin-top: 6rem;
     text-align: center;
     color: #666;
     font-size: .9rem;
 }
+
+/* -------------------------------- */
+/* RESPONSIVE */
+/* -------------------------------- */
 
 @media (max-width: 900px) {
 
@@ -259,7 +521,6 @@ h1 {
     }
 
     .timeline-item {
-        display: grid;
         grid-template-columns: 60px 1fr;
         gap: 1rem;
     }
@@ -271,23 +532,15 @@ h1 {
         margin-bottom: .5rem;
     }
 
-    .timeline-marker {
-        grid-row: span 2;
-    }
-
     .timeline-card {
         grid-column: 2;
-    }
-
-    .timeline-card::before {
-        display: none;
     }
 }
 
 @media (max-width: 700px) {
 
     .container {
-        width: 92%;
+        width: 94%;
         padding: 4rem 0;
     }
 
@@ -298,35 +551,17 @@ h1 {
 
     .btn {
         width: 100%;
-        max-width: 350px;
-    }
-
-    .subtitle {
-        font-size: 1rem;
     }
 
     .timeline-section {
         margin-top: 5rem;
     }
 
-    .timeline-section h2 {
-        font-size: 1.8rem;
+    .project-grid {
+        grid-template-columns: 1fr;
     }
-}
 
-.timeline-tags {
-    display: flex;
-    gap: .5rem;
-    margin-bottom: .75rem;
-    flex-wrap: wrap;
-}
-
-.tag {
-    padding: .25rem .75rem;
-    border-radius: 999px;
-    background: rgba(102,179,255,.12);
-    border: 1px solid rgba(102,179,255,.25);
-    color: #66b3ff;
-    font-size: .75rem;
-    font-weight: 500;
+    .project-gallery {
+        grid-template-columns: 1fr;
+    }
 }

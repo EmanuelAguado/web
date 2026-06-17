@@ -1,7 +1,6 @@
 {
     "first_name": "Emanuel",
     "last_name": "Aguado Pérez",
-
     "nickname": "Ema",
 
     "title": "Technical Director",
@@ -37,78 +36,280 @@
         }
     ],
 
-    "experience": [
+    "studio": [
+
         {
-            "period": "Aug 2020 - Present",
+            "id": "mondo-tv-studios",
+            "name": "Mondo TV Studios",
+            "url": "http://hianimation.com/",
             "icon": "fa-solid fa-code",
+            "period": "Aug 2020 - Present",
             "title": "Technical Director & Pipeline TD",
-            "company": "Mondo TV Studios",
-            "tags": [
-                "remote"
+            "tags": ["Remote"],
+
+            "description": "Development of pipeline and production tools from project startup. Creation of tools for Production, Concept, Modeling, QA, Animation, Lighting, Render and Precompo departments. Technical Support.",
+
+            "projects": [
+                "nivis",
+                "grisu",
+                "annie-carola",
+                "meteoheroes",
+                "letrabots"
             ],
-            "description": "Development of pipeline architecture and production tools from project startup. Creation of tools for Production, Concept, Modeling, QA, Animation, Lighting, Render and Precompo departments. Technical Support. Projects: Nivis, amigos de otro mundo, Grisù, Annie & Carola, Meteoheroes and Letrabots."
+
+            "tools": [
+                "gwaio"
+            ]
         },
+
         {
-            "period": "Aug 2023 - Dec 2024",
+            "id": "mago-production",
+            "name": "Mago Production",
+            "url": "https://magoproduction.com/",
             "icon": "fa-solid fa-film",
+            "period": "Aug 2023 - Dec 2024",
             "title": "Pipeline Developer",
-            "company": "Mago Production",
-            "tags": [
-                "remote"
+            "tags": ["Remote"],
+
+            "description": "Pipeline development for The Light of Aisha. Maya, Deadline and Arnold. Technical Support.",
+
+            "projects": [
+                "the-light-of-aisha"
             ],
-            "description": "Pipeline development for the feature film 'The Light of Aisha'. Pipeline implementation from Layout to Lighting using Maya, Deadline and Arnold. Technical Support."
+
+            "tools": [
+                "gwaio"
+            ]
         },
+
         {
-            "period": "Sep 2022 - Oct 2024",
+            "id": "tomavision",
+            "name": "Tomavisión",
+            "url": "https://www.tomavision.net/",
             "icon": "fa-solid fa-gears",
+            "period": "Sep 2022 - Oct 2024",
             "title": "Pipeline Developer",
-            "company": "Tomavisión",
-            "tags": [
-                "remote"
+            "tags": ["Remote"],
+
+            "description": "Pipeline implementation for Furry Tales – Caterella. Maya, Deadline, Arnold, Redshift, USD export to Houdini and Nuke integration. Technical Support.",
+
+            "projects": [
+                "furry-tales-caterella"
             ],
-            "description": "Pipeline implementation for the feature film 'Furry Tales – Caterella'. Tool development up to Lighting. Maya, Deadline, Arnold, Redshift, USD export to Houdini and Nuke integration. Technical Support."
+
+            "tools": [
+                "gwaio"
+            ]
         },
+
         {
-            "period": "Jul 2019 - Jul 2020",
+            "id": "people-moving-pixels",
+            "name": "People Moving Pixels",
+            "url": "http://www.peoplemovingpixels.com/",
             "icon": "fa-solid fa-server",
+            "period": "Jul 2019 - Jul 2020",
             "title": "Render TD",
-            "company": "People Moving Pixels",
-            "description": "Tool and UI development for multiple 3D departments. Windows utilities development, Technical Support, Alembic creation workflows and Render Farm management. Project: Talking Tom and Friends."
+            "tags": ["Hybrid"],
+
+            "description": "Tool development, UI development, Alembic workflows, render farm management and technical support.",
+
+            "projects": [
+                "talking-tom-and-friends"
+            ],
+
+            "tools": []
         },
+
         {
-            "period": "Feb 2019 - May 2019",
+            "id": "somnis-animacio",
+            "name": "Somnis Animació",
             "icon": "fa-solid fa-wand-magic-sparkles",
+            "period": "Feb 2019 - May 2019",
             "title": "3D Generalist",
-            "company": "Somnis Animació",
-            "description": "Shading, fixing, rendering, compositing, technical support and team coordination for the pilot episode of the series 'PopUp'."
+
+            "description": "Shading, fixing, rendering, compositing, technical support and team coordination.",
+
+            "projects": [
+                "popup-pilot"
+            ],
+
+            "tools": []
         },
+
         {
-            "period": "Nov 2018 - Jan 2019",
+            "id": "frameover-modeling",
+            "name": "Frameover",
             "icon": "fa-solid fa-cube",
+            "period": "Nov 2018 - Jan 2019",
             "title": "Modeling / Texturing Artist",
-            "company": "Frameover",
-            "description": "Modeling and texturing of props for videogame production."
+
+            "description": "Modeling and texturing of props for videogame production.",
+
+            "projects": [
+                "frameover-videogame"
+            ],
+
+            "tools": []
         },
+
         {
-            "period": "May 2018 - Oct 2018",
+            "id": "bikes-the-movie",
+            "name": "Bikes The Movie",
             "icon": "fa-solid fa-car-side",
+            "period": "May 2018 - Oct 2018",
             "title": "Modeling / Fixing / Render",
-            "company": "Bikes The Movie",
-            "description": "Model fixing for sets and props, set modeling, render layer management, render farm supervision and render review for the feature film 'Bikes The Movie'."
+
+            "description": "Set modeling, fixing, render layers, farm supervision and render review.",
+
+            "projects": [
+                "bikes-the-movie-project"
+            ],
+
+            "tools": []
         },
+
         {
-            "period": "Jun 2018 - Jul 2018",
+            "id": "frameover-shading",
+            "name": "Frameover",
             "icon": "fa-solid fa-palette",
+            "period": "Jun 2018 - Jul 2018",
             "title": "Shading Artist",
-            "company": "Frameover",
-            "description": "Shading creation for sets and props used in advertising productions."
+
+            "description": "Shading creation for sets and props used in advertising productions.",
+
+            "projects": [
+                "frameover-commercial"
+            ],
+
+            "tools": []
         },
+
         {
-            "period": "Sep 2017 - May 2018",
+            "id": "primer-frame",
+            "name": "Primer Frame",
             "icon": "fa-solid fa-graduation-cap",
+            "period": "Sep 2017 - May 2018",
             "title": "3D Generalist (Master Internship)",
-            "company": "Primer Frame",
-            "description": "Modeling, texturing, shading, lighting, rendering, technical support and compositing for the short film 'Lifetime: A Pacman Story'."
+
+            "description": "Modeling, texturing, shading, lighting, rendering, technical support and compositing.",
+
+            "projects": [
+                "lifetime-a-pacman-story"
+            ],
+
+            "tools": []
+        }
+    ],
+
+    "project": [
+        {
+            "id": "nivis",
+            "name": "Nivis, amigos de otro mundo",
+            "studio": "mondo-tv-studios",
+            "thumbnail": "static/img/nivis_thumb.jpg",
+            "banner": "static/img/nivis_banner.jpg",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
+            "id": "grisu",
+            "name": "Grisù",
+            "studio": "mondo-tv-studios",
+            "thumbnail": "images/projects/grisu/banner.jpg",
+            "banner": "images/projects/grisu/banner.jpg",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
+            "id": "annie-carola",
+            "name": "Annie & Carola",
+            "studio": "mondo-tv-studios",
+            "thumbnail": "images/projects/annie-carola/banner.jpg",
+            "banner": "images/projects/annie-carola/banner.jpg",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
+            "id": "meteoheroes",
+            "name": "Meteoheroes",
+            "studio": "mondo-tv-studios",
+            "thumbnail": "images/projects/meteoheroes/banner.jpg",
+            "banner": "images/projects/meteoheroes/banner.jpg",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
+            "id": "letrabots",
+            "name": "Letrabots",
+            "studio": "mondo-tv-studios",
+            "thumbnail": "images/projects/letrabots/banner.jpg",
+            "banner": "images/projects/letrabots/banner.jpg",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
+            "id": "the-light-of-aisha",
+            "name": "The Light of Aisha",
+            "studio": "mago-production",
+            "thumbnail": "images/projects/the-light-of-aisha/banner.jpg",
+            "banner": "images/projects/the-light-of-aisha/banner.jpg",
+            "images": [],
+            "description": "Feature Film."
+        },
+
+        {
+            "id": "furry-tales-caterella",
+            "name": "Furry Tales – Caterella",
+            "studio": "tomavision",
+            "thumbnail": "images/projects/furry-tales/banner.jpg",
+            "banner": "images/projects/furry-tales/banner.jpg",
+            "images": [],
+            "description": "Feature Film."
+        },
+
+        {
+            "id": "talking-tom-and-friends",
+            "name": "Talking Tom and Friends",
+            "studio": "people-moving-pixels",
+            "thumbnail": "images/projects/talking-tom/banner.jpg",
+            "banner": "images/projects/talking-tom/banner.jpg",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
+            "id": "popup-pilot",
+            "name": "PopUp Pilot Episode",
+            "studio": "somnis-animacio",
+            "thumbnail": "images/projects/popup/banner.jpg",
+            "banner": "images/projects/popup/banner.jpg",
+            "images": [],
+            "description": "Pilot Episode."
+        },
+
+        {
+            "id": "lifetime-a-pacman-story",
+            "name": "Lifetime: A Pacman Story",
+            "studio": "primer-frame",
+            "thumbnail": "images/projects/lifetime/banner.jpg",
+            "banner": "images/projects/lifetime/banner.jpg",
+            "images": [],
+            "description": "Short Film."
+        }
+    ],
+
+    "tool": [
+        {
+            "id": "gwaio",
+            "name": "GwaIO",
+            "url": "https://github.com/EmanuelAguado"
         }
     ]
 }
+
+

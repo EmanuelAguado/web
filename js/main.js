@@ -1,92 +1,192 @@
+let portfolio = null;
+
 async function loadPortfolio() {
 
     const response = await fetch("./data/portfolio.json");
-    const data = await response.json();
 
-    document.getElementById("status").innerHTML = `
-        <i class="fa-solid fa-hammer"></i>
-        ${data.status}
-    `;
+    portfolio = await response.json();
 
-    document.getElementById("name").innerHTML = `
-        ${data.first_name}
-        <span class="gradient">${data.last_name}</span>
-    `;
-
-    document.getElementById("aka").textContent = `(aka ${data.nickname})`;
-
-    document.getElementById("subtitle").innerHTML = `
-        ${data.title}<br>
-        ${data.subtitle}
-    `;
-
-    document.getElementById("footer").textContent =
-        `© ${new Date().getFullYear()} ${data.first_name} ${data.last_name}`;
-
-    const links = document.getElementById("links");
-
-    links.innerHTML = "";
-
-    data.socials.forEach(link => {
-
-        links.innerHTML += `
-            <a class="btn" href="${link.url}" target="_blank">
-                <i class="${link.icon}"></i>
-                <span>${link.name}</span>
-            </a>
-        `;
-    });
-
-    if (data.experience) {
-        renderTimeline(data.experience);
-    }
+    renderHero();
+    renderTimeline();
+    renderFooter();
 }
 
-function renderTimeline(items) {
+function renderHero() {
 
-    const timeline = document.getElementById("timeline");
+    const hero = document.getElementById("hero");
 
-    if (!timeline) {
-        return;
-    }
+    hero.classList.add("hero");
 
-    timeline.innerHTML = items.map(item => `
-        <div class="timeline-item">
+    hero.innerHTML = `
 
-            <div class="timeline-date">
-                ${item.period}
-            </div>
+        <div class="status">
 
-            <div class="timeline-marker">
-                <div class="timeline-icon">
-                    <i class="${item.icon}"></i>
-                </div>
-            </div>
+            <i class="fa-solid fa-hammer"></i>
 
-            <div class="timeline-card">
-
-                <h3>${item.title}</h3>
-
-                <h4>${item.company}</h4>
-
-                 ${
-                    item.tags?.length
-                        ? `
-                            <div class="timeline-tags">
-                                ${item.tags.map(tag => `
-                                    <span class="tag">${tag}</span>
-                                `).join("")}
-                            </div>
-                        `
-                        : ""
-                }
-
-                <p>${item.description}</p>
-
-            </div>
+            ${portfolio.status}
 
         </div>
-    `).join("");
+
+        <h1>
+
+            ${portfolio.first_name}
+
+            <span class="gradient">
+
+                ${portfolio.last_name}
+
+            </span>
+
+        </h1>
+
+        <div class="aka">
+
+            (aka ${portfolio.nickname})
+
+        </div>
+
+        <p class="subtitle">
+
+            ${portfolio.title}<br>
+            ${portfolio.subtitle}
+
+        </p>
+
+        <div class="links">
+
+            ${portfolio.socials.map(link => `
+
+                <a
+                    class="btn"
+                    href="${link.url}"
+                    target="_blank">
+
+                    <i class="${link.icon}"></i>
+
+                    <span>${link.name}</span>
+
+                </a>
+
+            `).join("")}
+
+        </div>
+
+    `;
+}
+
+function renderTimeline() {
+
+    const content = document.getElementById("content");
+
+    const studios = portfolio.studio || [];
+
+    content.innerHTML = `
+
+        <section class="timeline-section">
+
+            <h2>Experience</h2>
+
+            <div class="timeline">
+
+                ${studios.map(studio => `
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            ${studio.period}
+                        </div>
+
+                        <div class="timeline-marker">
+
+                            <div class="timeline-icon">
+                                <i class="${studio.icon}"></i>
+                            </div>
+
+                        </div>
+
+                        <a
+                            class="timeline-card clickable"
+                            href="templates/studio.html?id=${studio.id}"
+                        >
+
+                            <h3>${studio.title}</h3>
+
+                            <h4>${studio.name}</h4>
+
+                            ${renderTags(studio.tags)}
+
+                            <p>
+                                ${studio.description}
+                            </p>
+
+                        </a>
+
+                    </div>
+
+                `).join("")}
+
+            </div>
+
+        </section>
+
+    `;
+}
+
+function renderTags(tags) {
+
+    if (!tags || !tags.length) {
+        return "";
+    }
+
+    return `
+
+        <div class="timeline-tags">
+
+            ${tags.map(tag => `
+
+                <span class="tag">
+
+                    ${tag}
+
+                </span>
+
+            `).join("")}
+
+        </div>
+
+    `;
+}
+
+function renderFooter() {
+
+    const footer = document.getElementById("footer");
+
+    footer.classList.add("footer");
+
+    footer.innerHTML = `
+
+        © ${new Date().getFullYear()}
+
+        ${portfolio.first_name}
+
+        ${portfolio.last_name}
+
+    `;
+}
+
+function slugify(text) {
+
+    return text
+
+        .normalize("NFD")
+
+        .replace(/[\u0300-\u036f]/g, "")
+
+        .toLowerCase()
+
+        .replace(/[^a-z0-9]+/g, "-")
+
+        .replace(/^-+|-+$/g, "");
 }
 
 loadPortfolio();
