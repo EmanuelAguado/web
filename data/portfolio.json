@@ -11,12 +11,7 @@
 
     "socials": [
         {
-            "name": "GitHub (OLD)",
-            "icon": "fa-brands fa-github",
-            "url": "https://github.com/ema-aguado?tab=overview&from=2021-12-01&to=2021-12-31"
-        },
-        {
-            "name": "GitHub (WIP)",
+            "name": "GitHub",
             "icon": "fa-brands fa-github",
             "url": "https://github.com/EmanuelAguado"
         },
@@ -39,6 +34,81 @@
             "name": "Download CV",
             "icon": "fa-solid fa-file-arrow-down",
             "url": "./cv/Emanuel_Aguado_Perez_CV.pdf"
+        }
+    ],
+
+    "experience": [
+        {
+            "period": "Aug 2020 - Present",
+            "icon": "fa-solid fa-code",
+            "title": "Technical Director & Pipeline TD",
+            "company": "Mondo TV Studios",
+            "tags": [
+                "remote"
+            ],
+            "description": "Development of pipeline architecture and production tools from project startup. Creation of tools for Production, Concept, Modeling, QA, Animation, Lighting, Render and Precompo departments. Technical Support. Projects: Nivis, amigos de otro mundo, Grisù, Annie & Carola, Meteoheroes and Letrabots."
+        },
+        {
+            "period": "Aug 2023 - Dec 2024",
+            "icon": "fa-solid fa-film",
+            "title": "Pipeline Developer",
+            "company": "Mago Production",
+            "tags": [
+                "remote"
+            ],
+            "description": "Pipeline development for the feature film 'The Light of Aisha'. Pipeline implementation from Layout to Lighting using Maya, Deadline and Arnold. Technical Support."
+        },
+        {
+            "period": "Sep 2022 - Oct 2024",
+            "icon": "fa-solid fa-gears",
+            "title": "Pipeline Developer",
+            "company": "Tomavisión",
+            "tags": [
+                "remote"
+            ],
+            "description": "Pipeline implementation for the feature film 'Furry Tales – Caterella'. Tool development up to Lighting. Maya, Deadline, Arnold, Redshift, USD export to Houdini and Nuke integration. Technical Support."
+        },
+        {
+            "period": "Jul 2019 - Jul 2020",
+            "icon": "fa-solid fa-server",
+            "title": "Render TD",
+            "company": "People Moving Pixels",
+            "description": "Tool and UI development for multiple 3D departments. Windows utilities development, Technical Support, Alembic creation workflows and Render Farm management. Project: Talking Tom and Friends."
+        },
+        {
+            "period": "Feb 2019 - May 2019",
+            "icon": "fa-solid fa-wand-magic-sparkles",
+            "title": "3D Generalist",
+            "company": "Somnis Animació",
+            "description": "Shading, fixing, rendering, compositing, technical support and team coordination for the pilot episode of the series 'PopUp'."
+        },
+        {
+            "period": "Nov 2018 - Jan 2019",
+            "icon": "fa-solid fa-cube",
+            "title": "Modeling / Texturing Artist",
+            "company": "Frameover",
+            "description": "Modeling and texturing of props for videogame production."
+        },
+        {
+            "period": "May 2018 - Oct 2018",
+            "icon": "fa-solid fa-car-side",
+            "title": "Modeling / Fixing / Render",
+            "company": "Bikes The Movie",
+            "description": "Model fixing for sets and props, set modeling, render layer management, render farm supervision and render review for the feature film 'Bikes The Movie'."
+        },
+        {
+            "period": "Jun 2018 - Jul 2018",
+            "icon": "fa-solid fa-palette",
+            "title": "Shading Artist",
+            "company": "Frameover",
+            "description": "Shading creation for sets and props used in advertising productions."
+        },
+        {
+            "period": "Sep 2017 - May 2018",
+            "icon": "fa-solid fa-graduation-cap",
+            "title": "3D Generalist (Master Internship)",
+            "company": "Primer Frame",
+            "description": "Modeling, texturing, shading, lighting, rendering, technical support and compositing for the short film 'Lifetime: A Pacman Story'."
         }
     ]
 }
