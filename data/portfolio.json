@@ -36,6 +36,25 @@
         }
     ],
 
+    "featured": [
+        {
+            "type": "tool",
+            "id": "gwaio",
+            "title": "GwaIO",
+            "thumbnail": "./static/img/gwa_banner.webp",
+            "description": "Pipeline framework & Application.",
+            "link": "https://emanuelaguado.github.io/gwaio-docs/"
+        },
+        {
+            "type": "article",
+            "id": "none",
+            "title": "GitHub Portfolio — Work in Progress",
+            "thumbnail": "./static/img/art_gh_wip.webp",
+            "description": "I'm currently working on my GitHub profile as part of my portfolio. Feel free to take a look!",
+            "link": "https://github.com/EmanuelAguado"
+        }
+    ],
+
     "studio": [
 
         {
@@ -206,8 +225,8 @@
             "id": "nivis",
             "name": "Nivis, amigos de otro mundo",
             "studio": "mondo-tv-studios",
-            "thumbnail": "static/img/nivis_thumb.jpg",
-            "banner": "static/img/nivis_banner.jpg",
+            "thumbnail": "../static/img/nvs_thumb.webp",
+            "banner": "../static/img/nvs_banner.webp",
             "images": [],
             "description": "TV Series."
         },
@@ -216,8 +235,8 @@
             "id": "grisu",
             "name": "Grisù",
             "studio": "mondo-tv-studios",
-            "thumbnail": "images/projects/grisu/banner.jpg",
-            "banner": "images/projects/grisu/banner.jpg",
+            "thumbnail": "../static/img/gri_thumb.webp",
+            "banner": "../static/img/gri_banner.webp",
             "images": [],
             "description": "TV Series."
         },
@@ -226,8 +245,8 @@
             "id": "annie-carola",
             "name": "Annie & Carola",
             "studio": "mondo-tv-studios",
-            "thumbnail": "images/projects/annie-carola/banner.jpg",
-            "banner": "images/projects/annie-carola/banner.jpg",
+            "thumbnail": "../static/img/ac_thumb.webp",
+            "banner": "../static/img/ac_banner.webp",
             "images": [],
             "description": "TV Series."
         },
@@ -236,8 +255,8 @@
             "id": "meteoheroes",
             "name": "Meteoheroes",
             "studio": "mondo-tv-studios",
-            "thumbnail": "images/projects/meteoheroes/banner.jpg",
-            "banner": "images/projects/meteoheroes/banner.jpg",
+            "thumbnail": "../static/img/mh_thumb.webp",
+            "banner": "../static/img/mh_banner.webp",
             "images": [],
             "description": "TV Series."
         },
@@ -246,8 +265,8 @@
             "id": "letrabots",
             "name": "Letrabots",
             "studio": "mondo-tv-studios",
-            "thumbnail": "images/projects/letrabots/banner.jpg",
-            "banner": "images/projects/letrabots/banner.jpg",
+            "thumbnail": "../static/img/lb_thumb.webp",
+            "banner": "../static/img/lb_banner.webp",
             "images": [],
             "description": "TV Series."
         },
@@ -256,8 +275,8 @@
             "id": "the-light-of-aisha",
             "name": "The Light of Aisha",
             "studio": "mago-production",
-            "thumbnail": "images/projects/the-light-of-aisha/banner.jpg",
-            "banner": "images/projects/the-light-of-aisha/banner.jpg",
+            "thumbnail": "../static/img/loa_thumb.webp",
+            "banner": "../static/img/loa_banner.webp",
             "images": [],
             "description": "Feature Film."
         },
@@ -266,8 +285,17 @@
             "id": "furry-tales-caterella",
             "name": "Furry Tales – Caterella",
             "studio": "tomavision",
-            "thumbnail": "images/projects/furry-tales/banner.jpg",
-            "banner": "images/projects/furry-tales/banner.jpg",
+            "thumbnail": "../static/img/ft_thumb.webp",
+            "banner": "../static/img/ft_banner.webp",
+            "images": [],
+            "description": "Feature Film."
+        },
+        {
+            "id": "bikes-the-movie-project",
+            "name": "Bikes: The Movie",
+            "studio": "tomavision",
+            "thumbnail": "../static/img/bk_thumb.webp",
+            "banner": "../static/img/bk_banner.webp",
             "images": [],
             "description": "Feature Film."
         },
@@ -276,8 +304,8 @@
             "id": "talking-tom-and-friends",
             "name": "Talking Tom and Friends",
             "studio": "people-moving-pixels",
-            "thumbnail": "images/projects/talking-tom/banner.jpg",
-            "banner": "images/projects/talking-tom/banner.jpg",
+            "thumbnail": "../static/img/ttf_thumb.webp",
+            "banner": "../static/img/ttf_banner.webp",
             "images": [],
             "description": "TV Series."
         },
@@ -286,8 +314,8 @@
             "id": "popup-pilot",
             "name": "PopUp Pilot Episode",
             "studio": "somnis-animacio",
-            "thumbnail": "images/projects/popup/banner.jpg",
-            "banner": "images/projects/popup/banner.jpg",
+            "thumbnail": "../static/img/pp_thumb.webp",
+            "banner": "../static/img/pp_banner.webp",
             "images": [],
             "description": "Pilot Episode."
         },
@@ -296,8 +324,8 @@
             "id": "lifetime-a-pacman-story",
             "name": "Lifetime: A Pacman Story",
             "studio": "primer-frame",
-            "thumbnail": "images/projects/lifetime/banner.jpg",
-            "banner": "images/projects/lifetime/banner.jpg",
+            "thumbnail": "../static/img/lft_thumb.webp",
+            "banner": "../static/img/lft_banner.webp",
             "images": [],
             "description": "Short Film."
         }
@@ -307,9 +335,35 @@
         {
             "id": "gwaio",
             "name": "GwaIO",
-            "url": "https://github.com/EmanuelAguado"
+            "url": "https://github.com/EmanuelAguado",
+            "icon": "fa-solid fa-code",
+            "thumbnail": "../static/img/gwa_thumb.webp",
+            "banner": "../static/img/gwa_banner.webp",
+            "tags": [],
+            "description": "Development of pipeline and production tools from project startup. Creation of tools for Production, Concept, Modeling, QA, Animation, Lighting, Render and Precompo departments. Technical Support.",
+            "projects": [
+                "nivis",
+                "grisu",
+                "annie-carola",
+                "meteoheroes",
+                "letrabots"
+            ]
+        }
+    ],
+
+    "article": [
+        {
+            "id": "github-wip",
+            "name": "Repositories",
+            "url": "https://github.com/EmanuelAguado",
+            "icon": "fa-solid fa-code",
+            "thumbnail": "../static/img/gwa_thumb.webp",
+            "banner": "../static/img/gwa_banner.webp",
+            "tags": [],
+            "description": "I'm currently working on my GitHub profile as part of my portfolio. Feel free to take a look!"
         }
     ]
 }
+
 
 
