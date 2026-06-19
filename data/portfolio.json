@@ -59,7 +59,7 @@
 
         {
             "id": "mondo-tv-studios",
-            "name": "Mondo TV Studios",
+            "name": "Mondo TV Studios // Hi Animation Studio",
             "url": "http://hianimation.com/",
             "icon": "fa-solid fa-code",
             "period": "Aug 2020 - Present",
@@ -90,7 +90,7 @@
             "title": "Pipeline Developer",
             "tags": ["Remote"],
 
-            "description": "Pipeline development for The Light of Aisha. Maya, Deadline and Arnold. Technical Support.",
+            "description": "Pipeline development for feature film production, covering departments from Layout to Lighting using Maya, Deadline and Arnold. Technical Support.",
 
             "projects": [
                 "the-light-of-aisha"
@@ -228,7 +228,8 @@
             "thumbnail": "../static/img/nvs_thumb.webp",
             "banner": "../static/img/nvs_banner.webp",
             "images": [],
-            "description": "TV Series."
+            "description": "TV Series. ",
+            "content": "../content/projects/nivis.md"
         },
 
         {
@@ -238,7 +239,8 @@
             "thumbnail": "../static/img/gri_thumb.webp",
             "banner": "../static/img/gri_banner.webp",
             "images": [],
-            "description": "TV Series."
+            "description": "TV Series.",
+            "content": "../content/projects/grisu.md"
         },
 
         {
@@ -248,7 +250,9 @@
             "thumbnail": "../static/img/ac_thumb.webp",
             "banner": "../static/img/ac_banner.webp",
             "images": [],
-            "description": "TV Series."
+            "description": "TV Series.",
+            "content": "../content/projects/ac.md"
+
         },
 
         {
@@ -258,7 +262,9 @@
             "thumbnail": "../static/img/mh_thumb.webp",
             "banner": "../static/img/mh_banner.webp",
             "images": [],
-            "description": "TV Series."
+            "description": "TV Series.",
+            "content": "../content/projects/mh.md"
+
         },
 
         {
@@ -268,7 +274,9 @@
             "thumbnail": "../static/img/lb_thumb.webp",
             "banner": "../static/img/lb_banner.webp",
             "images": [],
-            "description": "TV Series."
+            "description": "TV Series.",
+            "content": "../content/projects/lb.md"
+
         },
 
         {
@@ -351,16 +359,13 @@
         }
     ],
 
-    "article": [
-        {
-            "id": "github-wip",
-            "name": "Repositories",
-            "url": "https://github.com/EmanuelAguado",
-            "icon": "fa-solid fa-code",
-            "thumbnail": "../static/img/gwa_thumb.webp",
-            "banner": "../static/img/gwa_banner.webp",
-            "tags": [],
-            "description": "I'm currently working on my GitHub profile as part of my portfolio. Feel free to take a look!"
+    "articles": [
+         {
+            "id": "introducing-gwaio",
+            "title": "Introducing GwaIO",
+            "date": "2026-06-18",
+            "description": "Overview of the framework.",
+            "file": "../content/articles/gwaio.md"
         }
     ]
 }

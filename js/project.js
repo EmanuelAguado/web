@@ -29,6 +29,32 @@ async function loadProject() {
         item => item.id === project.studio
     );
 
+    let content = "";
+
+    if (project.content) {
+
+        try {
+
+            const contentResponse = await fetch(
+                project.content
+            );
+
+            const markdown = await contentResponse.text();
+
+            content = marked.parse(markdown);
+
+        } catch (error) {
+
+            console.error(error);
+
+            content = `
+                <p>
+                    Failed to load project content.
+                </p>
+            `;
+        }
+    }
+
     document.title = project.name;
 
     document.getElementById("project-page").innerHTML = `
@@ -76,13 +102,20 @@ async function loadProject() {
                     : ""
             }
 
-            <p class="project-description">
-
-                ${project.description || ""}
-
-            </p>
-
         </section>
+
+        ${
+            content
+                ? `
+
+                    <article class="article-content">
+
+                        ${content}
+
+                    </article>
+                `
+                : ""
+        }
 
         ${
             project.images?.length
