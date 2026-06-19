@@ -1,15 +1,6 @@
----
-title: Introducing GwaIO
-date: 2026-06-18
-subtitle: Example
-tags:
-  - Pipeline
-  - Python
----
+# GwaIO Documentation
 
 [![Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](https://emanuelaguado.github.io/gwaio-docs)
-
-## GwaIO Documentation
 
 Official documentation repository for **GwaIO**, a modular pipeline framework designed for VFX, animation, and game production workflows.
 
