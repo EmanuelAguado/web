@@ -362,7 +362,7 @@
     "articles": [
          {
             "id": "gwaio-docs",
-            "title": "Pipeline with GwaIO",
+            "title": "Pipelines with GwaIO",
             "date": "2025-09-26",
             "description": "Overview of the framework.",
             "thumbnail": "./static/img/gwa_banner.webp",
