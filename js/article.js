@@ -11,7 +11,13 @@ async function loadArticle() {
         return;
     }
 
-    const response = await fetch("../data/portfolio.json");
+    const portfolioUrl = new URL("../data/portfolio.json", window.location.href).href;
+    const response = await fetch(portfolioUrl);
+
+    if (!response.ok) {
+        console.error("Failed to load portfolio.json:", portfolioUrl, response.status);
+        return;
+    }
 
     portfolio = await response.json();
 
@@ -30,7 +36,21 @@ async function renderArticle() {
 
     const container = document.getElementById("article");
 
-    const response = await fetch(article.file);
+    if (!article.file) {
+        container.innerHTML = "<p>Article file path is missing.</p>";
+        return;
+    }
+
+    const articleUrl = new URL(article.file, window.location.href).href;
+    const response = await fetch(articleUrl);
+
+    if (!response.ok) {
+        console.error("Failed to load article markdown:", articleUrl, response.status);
+        container.innerHTML = `
+            <p>Failed to load article content.</p>
+        `;
+        return;
+    }
 
     const markdown = await response.text();
 
