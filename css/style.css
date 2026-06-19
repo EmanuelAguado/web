@@ -368,6 +368,72 @@ h1 {
     margin-bottom: 2rem;
 }
 
+/* Projects section on main page */
+.projects-section {
+    margin-top: 4rem;
+}
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Articles section on main page */
+.articles-section {
+    margin-top: 4rem;
+}
+
+.articles-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.articles-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.article-item {
+    display: block;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: .25s ease;
+}
+
+.article-item:hover {
+    transform: translateY(-4px);
+    border-color: rgba(102,179,255,.3);
+}
+
+.article-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.article-info {
+    padding: 1rem;
+}
+
+.article-info h3 {
+    margin-bottom: .5rem;
+}
+
+.article-info p {
+    margin: .25rem 0;
+}
+
 /* -------------------------------- */
 /* TOOLS PAGE */
 /* -------------------------------- */
@@ -809,11 +875,13 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-.article-content ul,
-.article-content ol {
-    margin-left: 2rem;
-    margin-bottom: 1.5rem;
-}
+    .article-content img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 1.5rem auto;
+        border-radius: 16px;
+    }
 
 .article-content li {
     margin-bottom: .5rem;

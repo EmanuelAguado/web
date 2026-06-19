@@ -168,6 +168,7 @@ function renderTimeline() {
 
     const studios = portfolio.studio || [];
 
+    // Experience section
     content.innerHTML = `
 
         <section class="timeline-section">
@@ -218,6 +219,91 @@ function renderTimeline() {
         </section>
 
     `;
+
+    // Append Projects and Articles after Experience
+    renderProjects();
+    renderArticles();
+}
+
+function renderProjects() {
+
+    const content = document.getElementById("content");
+
+    const projects = portfolio.project || [];
+
+    if (!projects.length) return;
+
+    const projectsSection = `
+
+        <section class="projects-section">
+
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+
+                ${projects.map(p => `
+
+
+                    <a class="project-card clickable" href="templates/project.html?id=${p.id}">
+
+                        <img src="${p.thumbnail.replace(/^\.\.\//, '')}" alt="${p.name}"/>
+
+                        <div class="project-info">
+                            <h3>${p.name}</h3>
+                        </div>
+
+                    </a>
+
+                `).join("")}
+
+            </div>
+
+        </section>
+
+    `;
+
+    content.insertAdjacentHTML('beforeend', projectsSection);
+}
+
+function renderArticles() {
+
+    const content = document.getElementById("content");
+
+    const articles = portfolio.articles || [];
+
+    if (!articles.length) return;
+
+    const articlesSection = `
+
+        <section class="articles-section">
+
+            <h2>Articles</h2>
+
+            <div class="articles-list">
+
+                ${articles.map(a => `
+
+                    <a class="article-item clickable" href="templates/article.html?id=${a.id}">
+
+                        <img src="${a.thumbnail.replace(/^\.\.\//, '')}" alt="${a.title}"/>
+
+                        <div class="article-info">
+                            <h3>${a.title}</h3>
+                            <p class="muted">${a.date}</p>
+                            <p>${a.description || ""}</p>
+                        </div>
+
+                    </a>
+
+                `).join("")}
+
+            </div>
+
+        </section>
+
+    `;
+
+    content.insertAdjacentHTML('beforeend', articlesSection);
 }
 
 function renderTags(tags) {

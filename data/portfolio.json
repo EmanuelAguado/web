@@ -233,6 +233,16 @@
         },
 
         {
+            "id": "talking-tom-and-friends",
+            "name": "Talking Tom and Friends",
+            "studio": "people-moving-pixels",
+            "thumbnail": "../static/img/ttf_thumb.webp",
+            "banner": "../static/img/ttf_banner.webp",
+            "images": [],
+            "description": "TV Series."
+        },
+
+        {
             "id": "grisu",
             "name": "Grisù",
             "studio": "mondo-tv-studios",
@@ -241,6 +251,55 @@
             "images": [],
             "description": "TV Series.",
             "content": "../content/projects/grisu.md"
+        },
+
+        {
+            "id": "the-light-of-aisha",
+            "name": "The Light of Aisha",
+            "studio": "mago-production",
+            "thumbnail": "../static/img/loa_thumb.webp",
+            "banner": "../static/img/loa_banner.webp",
+            "images": [],
+            "description": "Feature Film."
+        },
+
+        {
+            "id": "furry-tales-caterella",
+            "name": "Furry Tales – Caterella",
+            "studio": "tomavision",
+            "thumbnail": "../static/img/ft_thumb.webp",
+            "banner": "../static/img/ft_banner.webp",
+            "images": [],
+            "description": "Feature Film."
+        },
+        {
+            "id": "bikes-the-movie-project",
+            "name": "Bikes: The Movie",
+            "studio": "tomavision",
+            "thumbnail": "../static/img/bk_thumb.webp",
+            "banner": "../static/img/bk_banner.webp",
+            "images": [],
+            "description": "Feature Film."
+        },
+
+        {
+            "id": "popup-pilot",
+            "name": "PopUp Pilot Episode",
+            "studio": "somnis-animacio",
+            "thumbnail": "../static/img/pp_thumb.webp",
+            "banner": "../static/img/pp_banner.webp",
+            "images": [],
+            "description": "Pilot Episode."
+        },
+
+        {
+            "id": "lifetime-a-pacman-story",
+            "name": "Lifetime: A Pacman Story",
+            "studio": "primer-frame",
+            "thumbnail": "../static/img/lft_thumb.webp",
+            "banner": "../static/img/lft_banner.webp",
+            "images": [],
+            "description": "Short Film."
         },
 
         {
@@ -277,65 +336,6 @@
             "description": "TV Series.",
             "content": "../content/projects/lb.md"
 
-        },
-
-        {
-            "id": "the-light-of-aisha",
-            "name": "The Light of Aisha",
-            "studio": "mago-production",
-            "thumbnail": "../static/img/loa_thumb.webp",
-            "banner": "../static/img/loa_banner.webp",
-            "images": [],
-            "description": "Feature Film."
-        },
-
-        {
-            "id": "furry-tales-caterella",
-            "name": "Furry Tales – Caterella",
-            "studio": "tomavision",
-            "thumbnail": "../static/img/ft_thumb.webp",
-            "banner": "../static/img/ft_banner.webp",
-            "images": [],
-            "description": "Feature Film."
-        },
-        {
-            "id": "bikes-the-movie-project",
-            "name": "Bikes: The Movie",
-            "studio": "tomavision",
-            "thumbnail": "../static/img/bk_thumb.webp",
-            "banner": "../static/img/bk_banner.webp",
-            "images": [],
-            "description": "Feature Film."
-        },
-
-        {
-            "id": "talking-tom-and-friends",
-            "name": "Talking Tom and Friends",
-            "studio": "people-moving-pixels",
-            "thumbnail": "../static/img/ttf_thumb.webp",
-            "banner": "../static/img/ttf_banner.webp",
-            "images": [],
-            "description": "TV Series."
-        },
-
-        {
-            "id": "popup-pilot",
-            "name": "PopUp Pilot Episode",
-            "studio": "somnis-animacio",
-            "thumbnail": "../static/img/pp_thumb.webp",
-            "banner": "../static/img/pp_banner.webp",
-            "images": [],
-            "description": "Pilot Episode."
-        },
-
-        {
-            "id": "lifetime-a-pacman-story",
-            "name": "Lifetime: A Pacman Story",
-            "studio": "primer-frame",
-            "thumbnail": "../static/img/lft_thumb.webp",
-            "banner": "../static/img/lft_banner.webp",
-            "images": [],
-            "description": "Short Film."
         }
     ],
 
@@ -361,11 +361,22 @@
 
     "articles": [
          {
-            "id": "introducing-gwaio",
-            "title": "Introducing GwaIO",
-            "date": "2026-06-18",
+            "id": "gwaio-docs",
+            "title": "Pipeline with GwaIO",
+            "date": "2025-09-26",
             "description": "Overview of the framework.",
+            "thumbnail": "./static/img/gwa_banner.webp",
+            "banner": "../static/img/gwa_banner.webp",
             "file": "../content/articles/gwaio.md"
+        },
+        {
+            "id": "garagt",
+            "title": "GarageT",
+            "date": "2018-06-18",
+            "description": "Personal project",
+            "thumbnail": "../static/img/garaget_thumb.webp",
+            "banner": "../static/img/garaget_banner.webp",
+            "file": "../content/articles/garaget.md"
         }
     ]
 }
