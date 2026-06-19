@@ -9,7 +9,6 @@ tags:
 
 [![Featured Project](https://img.shields.io/badge/Personal-Project-gold?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/artwork/2xBxPe)
 
-
 This project started with a very simple idea: to recreate a garage that wouldn't just store objects, but also small pieces of my own story.
 
 At first glance, it may look like an ordinary garage, filled with random stuff accumulated over the years. However, almost every item in the scene has a personal meaning and helps tell the story of the geeky things that make me who I am.

@@ -7,9 +7,9 @@ tags:
   - Python
 ---
 
-## Introducing GwaIO
+[![Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](https://emanuelaguado.github.io/gwaio-docs)
 
-# GwaIO Documentation
+## GwaIO Documentation
 
 Official documentation repository for **GwaIO**, a modular pipeline framework designed for VFX, animation, and game production workflows.
 
@@ -21,5 +21,3 @@ This repository contains guides, references, examples, and technical documentati
 - admin docs
 - dev docs
 - API
-
-[![Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](https://emanuelaguado.github.io/gwaio-docs)
