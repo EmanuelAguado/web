@@ -1,13 +1,4 @@
----
-title: GarageT
-date: 2025-09-26
-subtitle: Personal projects
-tags:
-  - 3D
-  - Generalist
----
-
-[![Featured Project](https://img.shields.io/badge/Personal-Project-gold?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/artwork/2xBxPe)
+# [![Featured Project](https://img.shields.io/badge/Personal-Project-gold?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/artwork/2xBxPe)
 
 This project started with a very simple idea: to recreate a garage that wouldn't just store objects, but also small pieces of my own story.
 
