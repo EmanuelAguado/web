@@ -65,18 +65,28 @@
             },
 
             {
-                "name": "Blender",
-                "logo": "https://cdn.simpleicons.org/blender"
+                "name": "Arnold",
+                "logo": "https://cdn.simpleicons.org/autodesk"
             },
 
             {
-                "name": "Houdini",
-                "logo": "https://www.sidefx.com/favicon.ico"
+                "name": "Redshift",
+                "logo": "https://www.maxon.net/favicon.ico"
             },
 
             {
-                "name": "Nuke",
-                "logo": "https://www.foundry.com/favicon.ico"
+                "name": "V-Ray",
+                "logo": "https://www.chaos.com/favicon.ico"
+            },
+
+            {
+                "name": "3ds Max",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            {
+                "name": "ZBrush",
+                "logo": "https://pixologic.com/favicon.ico"
             },
 
             {
@@ -85,8 +95,13 @@
             },
 
             {
-                "name": "Photoshop",
-                "logo": "https://cdn.simpleicons.org/adobephotoshop"
+                "name": "Substance Designer",
+                "logo": "https://cdn.simpleicons.org/adobe"
+            },
+
+            {
+                "name": "Marvelous Designer",
+                "logo": "https://www.marvelousdesigner.com/favicon.ico"
             },
 
             {
@@ -95,71 +110,28 @@
             },
 
             {
+                "name": "Nuke",
+                "logo": "https://www.foundry.com/favicon.ico"
+            },
+
+            {
+                "name": "Premiere Pro",
+                "logo": "https://cdn.simpleicons.org/adobepremierepro"
+            },
+
+            {
+                "name": "Photoshop",
+                "logo": "https://cdn.simpleicons.org/adobephotoshop"
+            },
+
+            {
+                "name": "Marmoset Toolbag",
+                "logo": "https://marmoset.co/wp-content/uploads/2016/11/cropped-marmoset512-32x32.png"
+            },
+
+            {
                 "name": "RV",
                 "logo": "https://cdn.simpleicons.org/autodesk"
-            }
-        ],
-
-        "development": [
-
-            {
-                "name": "Python",
-                "logo": "https://cdn.simpleicons.org/python"
-            },
-
-            {
-                "name": "Qt / PySide",
-                "logo": "https://cdn.simpleicons.org/qt"
-            },
-
-            {
-                "name": "Git",
-                "logo": "https://cdn.simpleicons.org/git"
-            },
-
-            {
-                "name": "Docker",
-                "logo": "https://cdn.simpleicons.org/docker"
-            },
-
-            {
-                "name": "FastAPI",
-                "logo": "https://cdn.simpleicons.org/fastapi"
-            },
-
-            {
-                "name": "MongoDB",
-                "logo": "https://cdn.simpleicons.org/mongodb"
-            },
-
-            {
-                "name": "PostgreSQL",
-                "logo": "https://cdn.simpleicons.org/postgresql"
-            },
-
-            {
-                "name": "USD",
-                "logo": "https://openusd.org/images/USDlogo.png"
-            },
-
-            {
-                "name": "ShotGrid",
-                "logo": "https://cdn.simpleicons.org/autodesk"
-            },
-
-            {
-                "name": "Flow Production Tracking",
-                "logo": "https://cdn.simpleicons.org/autodesk"
-            },
-
-            {
-                "name": "AYON",
-                "logo": "https://ayon.ynput.io/img/logo.svg"
-            },
-
-            {
-                "name": "Kitsu",
-                "logo": "https://www.cg-wire.com/static/img/logo.svg"
             },
 
             {
@@ -176,6 +148,92 @@
                 "name": "Redshift",
                 "logo": "https://www.maxon.net/favicon.ico"
             }
+
+        ],
+
+        "development": [
+
+            {
+                "name": "Python",
+                "logo": "https://cdn.simpleicons.org/python"
+            },
+
+            {
+                "name": "PySide",
+                "logo": "https://cdn.simpleicons.org/qt"
+            },
+
+            {
+                "name": "Flask",
+                "logo": "https://cdn.simpleicons.org/flask"
+            },
+
+            {
+                "name": "FastAPI",
+                "logo": "https://cdn.simpleicons.org/fastapi"
+            },
+
+            {
+                "name": "Supabase",
+                "logo": "https://cdn.simpleicons.org/supabase"
+            },
+
+            {
+                "name": "PostgreSQL",
+                "logo": "https://cdn.simpleicons.org/postgresql"
+            },
+
+            {
+                "name": "Flow Production Tracking",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            
+            {
+                "name": "Git",
+                "logo": "https://cdn.simpleicons.org/git"
+            },
+
+            {
+                "name": "GitHub",
+                "logo": "https://cdn.simpleicons.org/github"
+            },
+
+            {
+                "name": "Docker",
+                "logo": "https://cdn.simpleicons.org/docker"
+            },
+
+            {
+                "name": "VS Code",
+                "logo": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/visualstudiocode.svg"
+            },
+
+            {
+                "name": "Inno Setup",
+                "logo": "https://jrsoftware.org/favicon.ico"
+            },
+
+            {
+                "name": "Maya API",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            {
+                "name": "AYON (R&D)",
+                "logo": "https://docs.ayon.dev/img/favicon.ico"
+            },
+        
+            {
+                "name": "Kitsu (R&D)",
+                "logo": "https://www.cg-wire.com/favicon.png"
+            },
+
+            {
+                "name": "USD (R&D)",
+                "logo": "https://openusd.org/images/USDLogo24.svg"
+            }
+
         ]
     },
     

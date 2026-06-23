@@ -175,7 +175,7 @@ function renderStacks() {
 
         <div class="stack-header">
 
-            <h2>Tech Stack</h2>
+            <h2>Stack</h2>
 
         </div>
 
