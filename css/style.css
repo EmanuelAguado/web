@@ -925,3 +925,98 @@ h1 {
 
     color: var(--muted);
 }
+
+/* -------------------------------- */
+/* STACKS */
+/* -------------------------------- */
+
+.stack-section {
+    margin-top: 6rem;
+}
+
+.stack-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.stack-header h2 {
+    font-size: 2rem;
+}
+
+.stack-category {
+    margin-bottom: 2rem;
+}
+
+.stack-category h3 {
+
+    text-align: center;
+
+    margin-bottom: 1rem;
+
+    color: var(--muted);
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+}
+
+.stack-grid {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: .75rem;
+}
+
+.stack-card {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .6rem;
+
+    padding: .55rem .9rem;
+
+    border-radius: 999px;
+
+    background: rgba(102,179,255,.08);
+
+    border: 1px solid rgba(102,179,255,.18);
+
+    transition: .2s ease;
+}
+
+.stack-card:hover {
+
+    transform: translateY(-2px);
+
+    background: rgba(102,179,255,.12);
+
+    border-color: rgba(102,179,255,.3);
+}
+
+.stack-logo {
+
+    width: 18px;
+
+    height: 18px;
+
+    object-fit: contain;
+
+    flex-shrink: 0;
+}
+
+.stack-card span {
+
+    font-size: .85rem;
+
+    font-weight: 500;
+}

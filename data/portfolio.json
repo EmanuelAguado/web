@@ -55,6 +55,130 @@
         }
     ],
 
+    "stacks": {
+
+        "dcc": [
+
+            {
+                "name": "Maya",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            {
+                "name": "Blender",
+                "logo": "https://cdn.simpleicons.org/blender"
+            },
+
+            {
+                "name": "Houdini",
+                "logo": "https://www.sidefx.com/favicon.ico"
+            },
+
+            {
+                "name": "Nuke",
+                "logo": "https://www.foundry.com/favicon.ico"
+            },
+
+            {
+                "name": "Substance Painter",
+                "logo": "https://cdn.simpleicons.org/adobe"
+            },
+
+            {
+                "name": "Photoshop",
+                "logo": "https://cdn.simpleicons.org/adobephotoshop"
+            },
+
+            {
+                "name": "After Effects",
+                "logo": "https://cdn.simpleicons.org/adobeaftereffects"
+            },
+
+            {
+                "name": "RV",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            }
+        ],
+
+        "development": [
+
+            {
+                "name": "Python",
+                "logo": "https://cdn.simpleicons.org/python"
+            },
+
+            {
+                "name": "Qt / PySide",
+                "logo": "https://cdn.simpleicons.org/qt"
+            },
+
+            {
+                "name": "Git",
+                "logo": "https://cdn.simpleicons.org/git"
+            },
+
+            {
+                "name": "Docker",
+                "logo": "https://cdn.simpleicons.org/docker"
+            },
+
+            {
+                "name": "FastAPI",
+                "logo": "https://cdn.simpleicons.org/fastapi"
+            },
+
+            {
+                "name": "MongoDB",
+                "logo": "https://cdn.simpleicons.org/mongodb"
+            },
+
+            {
+                "name": "PostgreSQL",
+                "logo": "https://cdn.simpleicons.org/postgresql"
+            },
+
+            {
+                "name": "USD",
+                "logo": "https://openusd.org/images/USDlogo.png"
+            },
+
+            {
+                "name": "ShotGrid",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            {
+                "name": "Flow Production Tracking",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            {
+                "name": "AYON",
+                "logo": "https://ayon.ynput.io/img/logo.svg"
+            },
+
+            {
+                "name": "Kitsu",
+                "logo": "https://www.cg-wire.com/static/img/logo.svg"
+            },
+
+            {
+                "name": "Deadline",
+                "logo": "https://cdn.simpleicons.org/amazonaws"
+            },
+
+            {
+                "name": "Arnold",
+                "logo": "https://cdn.simpleicons.org/autodesk"
+            },
+
+            {
+                "name": "Redshift",
+                "logo": "https://www.maxon.net/favicon.ico"
+            }
+        ]
+    },
+    
     "studio": [
 
         {

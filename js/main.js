@@ -8,6 +8,7 @@ async function loadPortfolio() {
 
     renderHero();
     renderFeatured();
+    renderStacks();
     renderTimeline();
     renderFooter();
 }
@@ -160,6 +161,74 @@ function renderFeatured() {
 
         }, 6000);
     }
+}
+
+function renderStacks() {
+
+    const container = document.getElementById("stacks");
+
+    if (!container) return;
+
+    const stacks = portfolio.stacks || {};
+
+    container.innerHTML = `
+
+        <div class="stack-header">
+
+            <h2>Tech Stack</h2>
+
+        </div>
+
+        ${renderStackCategory(
+            "3D & Content Creation",
+            stacks.dcc || []
+        )}
+
+        ${renderStackCategory(
+            "Pipeline & Development",
+            stacks.development || []
+        )}
+
+    `;
+}
+
+function renderStackCategory(title, items) {
+
+    if (!items.length) return "";
+
+    return `
+
+        <div class="stack-category">
+
+            <h3>${title}</h3>
+
+            <div class="stack-grid">
+
+                ${items.map(item => `
+
+                    <div class="stack-card">
+
+                        <img
+                            class="stack-logo"
+                            src="${item.logo}"
+                            alt="${item.name}"
+                        >
+
+                        <span>
+
+                            ${item.name}
+
+                        </span>
+
+                    </div>
+
+                `).join("")}
+
+            </div>
+
+        </div>
+
+    `;
 }
 
 function renderTimeline() {
