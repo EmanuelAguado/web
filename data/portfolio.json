@@ -2,12 +2,9 @@
     "first_name": "Emanuel",
     "last_name": "Aguado Pérez",
     "nickname": "Ema",
-
     "title": "Technical Director",
     "subtitle": "Pipeline Developer and 3D Generalist",
-
     "status": "Work In Progress",
-
     "socials": [
         {
             "name": "GitHub",
@@ -35,7 +32,6 @@
             "url": "./cv/Emanuel_Aguado_Perez_CV.pdf"
         }
     ],
-
     "featured": [
         {
             "type": "tool",
@@ -54,191 +50,165 @@
             "link": "https://github.com/EmanuelAguado"
         }
     ],
-
     "stacks": {
-
         "dcc": [
-
             {
                 "name": "Maya",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/maya.svg"
             },
-
             {
                 "name": "Arnold",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/arnold.svg"
             },
-
             {
                 "name": "Redshift",
-                "logo": "https://www.maxon.net/favicon.ico"
+                "logo": "./static/icons/redshift.ico"
             },
-
             {
                 "name": "V-Ray",
-                "logo": "https://www.chaos.com/favicon.ico"
+                "logo": "./static/icons/v-ray.ico"
             },
-
             {
                 "name": "3ds Max",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/3ds-max.svg"
             },
-
             {
                 "name": "ZBrush",
-                "logo": "https://pixologic.com/favicon.ico"
+                "logo": "./static/icons/zbrush.ico"
             },
-
             {
                 "name": "Substance Painter",
-                "logo": "https://cdn.simpleicons.org/adobe"
+                "logo": "./static/icons/substance-painter.png"
             },
-
             {
                 "name": "Substance Designer",
-                "logo": "https://cdn.simpleicons.org/adobe"
+                "logo": "./static/icons/substance-designer.png"
             },
-
             {
                 "name": "Marvelous Designer",
                 "logo": "https://www.marvelousdesigner.com/favicon.ico"
             },
-
             {
                 "name": "After Effects",
                 "logo": "https://cdn.simpleicons.org/adobeaftereffects"
             },
-
             {
                 "name": "Nuke",
-                "logo": "https://www.foundry.com/favicon.ico"
+                "logo": "./static/icons/nuke.ico"
             },
-
             {
                 "name": "Premiere Pro",
                 "logo": "https://cdn.simpleicons.org/adobepremierepro"
             },
-
+            {
+                "name": "Davinci Resolve",
+                "logo": "./static/icons/davinci-resolve.png"
+            },
             {
                 "name": "Photoshop",
-                "logo": "https://cdn.simpleicons.org/adobephotoshop"
+                "logo": "./static/icons/photoshop.png"
             },
-
             {
                 "name": "Marmoset Toolbag",
-                "logo": "https://marmoset.co/wp-content/uploads/2016/11/cropped-marmoset512-32x32.png"
+                "logo": "./static/icons/marmoset-toolbag.png"
             },
-
             {
                 "name": "RV",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/rv.svg"
             },
-
             {
                 "name": "Deadline",
-                "logo": "https://cdn.simpleicons.org/amazonaws"
+                "logo": "./static/icons/deadline.png"
             },
-
             {
                 "name": "Arnold",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/arnold.svg"
             },
-
             {
                 "name": "Redshift",
-                "logo": "https://www.maxon.net/favicon.ico"
+                "logo": "./static/icons/redshift.ico"
             }
-
         ],
-
         "development": [
-
             {
                 "name": "Python",
-                "logo": "https://cdn.simpleicons.org/python"
+                "logo": "./static/icons/python.svg"
             },
-
             {
                 "name": "PySide",
-                "logo": "https://cdn.simpleicons.org/qt"
+                "logo": "./static/icons/pyside.svg"
             },
-
             {
                 "name": "Flask",
-                "logo": "https://cdn.simpleicons.org/flask"
+                "logo": "./static/icons/flask.svg"
             },
-
             {
                 "name": "FastAPI",
-                "logo": "https://cdn.simpleicons.org/fastapi"
+                "logo": "./static/icons/fastapi.svg"
             },
-
             {
                 "name": "Supabase",
-                "logo": "https://cdn.simpleicons.org/supabase"
+                "logo": "./static/icons/supabase.svg"
             },
-
             {
                 "name": "PostgreSQL",
-                "logo": "https://cdn.simpleicons.org/postgresql"
+                "logo": "./static/icons/postgresql.svg"
             },
-
             {
                 "name": "Flow Production Tracking",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/flow-production-tracking.svg"
             },
-
-            
             {
                 "name": "Git",
-                "logo": "https://cdn.simpleicons.org/git"
+                "logo": "./static/icons/git.svg"
             },
-
             {
                 "name": "GitHub",
-                "logo": "https://cdn.simpleicons.org/github"
+                "logo": "./static/icons/github.svg"
             },
-
             {
                 "name": "Docker",
-                "logo": "https://cdn.simpleicons.org/docker"
+                "logo": "./static/icons/docker.svg"
             },
-
+            {
+                "name": "FFmpeg",
+                "logo": "./static/icons/ffmpeg.svg"
+            },
+            {
+                "name": "Sphinx",
+                "logo": "./static/icons/sphinx.svg"
+            },
+            {
+                "name": "Mkdocs",
+                "logo": "./static/icons/mkdocs.ico"
+            },
             {
                 "name": "VS Code",
-                "logo": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/visualstudiocode.svg"
+                "logo": "./static/icons/vs-code.svg"
             },
-
             {
                 "name": "Inno Setup",
-                "logo": "https://jrsoftware.org/favicon.ico"
+                "logo": "./static/icons/inno-setup.ico"
             },
-
             {
                 "name": "Maya API",
-                "logo": "https://cdn.simpleicons.org/autodesk"
+                "logo": "./static/icons/maya-api.svg"
             },
-
             {
                 "name": "AYON (R&D)",
-                "logo": "https://docs.ayon.dev/img/favicon.ico"
+                "logo": "./static/icons/ayon.ico"
             },
-        
             {
                 "name": "Kitsu (R&D)",
-                "logo": "https://www.cg-wire.com/favicon.png"
+                "logo": "./static/icons/kitsu.png"
             },
-
             {
                 "name": "USD (R&D)",
-                "logo": "https://openusd.org/images/USDLogo24.svg"
+                "logo": "./static/icons/usd.svg"
             }
-
         ]
     },
-    
     "studio": [
-
         {
             "id": "mondo-tv-studios",
             "name": "Mondo TV Studios // Hi Animation Studio",
@@ -246,10 +216,10 @@
             "icon": "fa-solid fa-code",
             "period": "Aug 2020 - Present",
             "title": "Technical Director & Pipeline TD",
-            "tags": ["Remote"],
-
+            "tags": [
+                "Remote"
+            ],
             "description": "Development of pipeline and production tools from project startup. Creation of tools for Production, Concept, Modeling, QA, Animation, Lighting, Render and Precompo departments. Technical Support.",
-
             "projects": [
                 "nivis",
                 "grisu",
@@ -257,12 +227,10 @@
                 "meteoheroes",
                 "letrabots"
             ],
-
             "tools": [
                 "gwaio"
             ]
         },
-
         {
             "id": "mago-production",
             "name": "Mago Production",
@@ -270,19 +238,17 @@
             "icon": "fa-solid fa-film",
             "period": "Aug 2023 - Dec 2024",
             "title": "Pipeline Developer",
-            "tags": ["Remote"],
-
+            "tags": [
+                "Remote"
+            ],
             "description": "Pipeline development for feature film production, covering departments from Layout to Lighting using Maya, Deadline and Arnold. Technical Support.",
-
             "projects": [
                 "the-light-of-aisha"
             ],
-
             "tools": [
                 "gwaio"
             ]
         },
-
         {
             "id": "tomavision",
             "name": "Tomavisión",
@@ -290,19 +256,17 @@
             "icon": "fa-solid fa-gears",
             "period": "Sep 2022 - Oct 2024",
             "title": "Pipeline Developer",
-            "tags": ["Remote"],
-
+            "tags": [
+                "Remote"
+            ],
             "description": "Pipeline implementation for Furry Tales – Caterella. Maya, Deadline, Arnold, Redshift, USD export to Houdini and Nuke integration. Technical Support.",
-
             "projects": [
                 "furry-tales-caterella"
             ],
-
             "tools": [
                 "gwaio"
             ]
         },
-
         {
             "id": "people-moving-pixels",
             "name": "People Moving Pixels",
@@ -310,98 +274,76 @@
             "icon": "fa-solid fa-server",
             "period": "Jul 2019 - Jul 2020",
             "title": "Render TD",
-            "tags": ["Hybrid"],
-
+            "tags": [
+                "Hybrid"
+            ],
             "description": "Tool development, UI development, Alembic workflows, render farm management and technical support.",
-
             "projects": [
                 "talking-tom-and-friends"
             ],
-
             "tools": []
         },
-
         {
             "id": "somnis-animacio",
             "name": "Somnis Animació",
             "icon": "fa-solid fa-wand-magic-sparkles",
             "period": "Feb 2019 - May 2019",
             "title": "3D Generalist",
-
             "description": "Shading, fixing, rendering, compositing, technical support and team coordination.",
-
             "projects": [
                 "popup-pilot"
             ],
-
             "tools": []
         },
-
         {
             "id": "frameover-modeling",
             "name": "Frameover",
             "icon": "fa-solid fa-cube",
             "period": "Nov 2018 - Jan 2019",
             "title": "Modeling / Texturing Artist",
-
             "description": "Modeling and texturing of props for videogame production.",
-
             "projects": [
                 "frameover-videogame"
             ],
-
             "tools": []
         },
-
         {
             "id": "bikes-the-movie",
             "name": "Bikes The Movie",
             "icon": "fa-solid fa-car-side",
             "period": "May 2018 - Oct 2018",
             "title": "Modeling / Fixing / Render",
-
             "description": "Set modeling, fixing, render layers, farm supervision and render review.",
-
             "projects": [
                 "bikes-the-movie-project"
             ],
-
             "tools": []
         },
-
         {
             "id": "frameover-shading",
             "name": "Frameover",
             "icon": "fa-solid fa-palette",
             "period": "Jun 2018 - Jul 2018",
             "title": "Shading Artist",
-
             "description": "Shading creation for sets and props used in advertising productions.",
-
             "projects": [
                 "frameover-commercial"
             ],
-
             "tools": []
         },
-
         {
             "id": "primer-frame",
             "name": "Primer Frame",
             "icon": "fa-solid fa-graduation-cap",
             "period": "Sep 2017 - May 2018",
             "title": "3D Generalist (Master Internship)",
-
             "description": "Modeling, texturing, shading, lighting, rendering, technical support and compositing.",
-
             "projects": [
                 "lifetime-a-pacman-story"
             ],
-
             "tools": []
         }
     ],
-
     "project": [
         {
             "id": "nivis",
@@ -413,7 +355,6 @@
             "description": "TV Series. ",
             "content": "../content/projects/nivis.md"
         },
-
         {
             "id": "talking-tom-and-friends",
             "name": "Talking Tom and Friends",
@@ -423,7 +364,6 @@
             "images": [],
             "description": "TV Series."
         },
-
         {
             "id": "grisu",
             "name": "Grisù",
@@ -434,7 +374,6 @@
             "description": "TV Series.",
             "content": "../content/projects/grisu.md"
         },
-
         {
             "id": "the-light-of-aisha",
             "name": "The Light of Aisha",
@@ -444,7 +383,6 @@
             "images": [],
             "description": "Feature Film."
         },
-
         {
             "id": "furry-tales-caterella",
             "name": "Furry Tales – Caterella",
@@ -463,7 +401,6 @@
             "images": [],
             "description": "Feature Film."
         },
-
         {
             "id": "popup-pilot",
             "name": "PopUp Pilot Episode",
@@ -473,7 +410,6 @@
             "images": [],
             "description": "Pilot Episode."
         },
-
         {
             "id": "lifetime-a-pacman-story",
             "name": "Lifetime: A Pacman Story",
@@ -483,7 +419,6 @@
             "images": [],
             "description": "Short Film."
         },
-
         {
             "id": "annie-carola",
             "name": "Annie & Carola",
@@ -493,9 +428,7 @@
             "images": [],
             "description": "TV Series.",
             "content": "../content/projects/ac.md"
-
         },
-
         {
             "id": "meteoheroes",
             "name": "Meteoheroes",
@@ -505,9 +438,7 @@
             "images": [],
             "description": "TV Series.",
             "content": "../content/projects/mh.md"
-
         },
-
         {
             "id": "letrabots",
             "name": "Letrabots",
@@ -517,10 +448,8 @@
             "images": [],
             "description": "TV Series.",
             "content": "../content/projects/lb.md"
-
         }
     ],
-
     "tool": [
         {
             "id": "gwaio",
@@ -540,9 +469,8 @@
             ]
         }
     ],
-
     "articles": [
-         {
+        {
             "id": "gwaio-docs",
             "title": "Pipelines with GwaIO",
             "date": "2025-09-26",
@@ -562,6 +490,3 @@
         }
     ]
 }
-
-
-
