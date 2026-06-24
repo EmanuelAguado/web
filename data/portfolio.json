@@ -54,7 +54,7 @@
         "dcc": [
             {
                 "name": "Maya",
-                "logo": "./static/icons/maya.svg"
+                "logo": "./static/icons/maya.png"
             },
             {
                 "name": "Arnold",
@@ -86,11 +86,11 @@
             },
             {
                 "name": "Marvelous Designer",
-                "logo": "https://www.marvelousdesigner.com/favicon.ico"
+                "logo": "./static/icons/marvelous-designer.png"
             },
             {
                 "name": "After Effects",
-                "logo": "https://cdn.simpleicons.org/adobeaftereffects"
+                "logo": "./static/icons/after-effects.png"
             },
             {
                 "name": "Nuke",
@@ -98,7 +98,7 @@
             },
             {
                 "name": "Premiere Pro",
-                "logo": "https://cdn.simpleicons.org/adobepremierepro"
+                "logo": "./static/icons/premiere.webp"
             },
             {
                 "name": "Davinci Resolve",
@@ -156,7 +156,7 @@
             },
             {
                 "name": "Flow Production Tracking",
-                "logo": "./static/icons/flow-production-tracking.svg"
+                "logo": "./static/icons/flow-production-tracking.png"
             },
             {
                 "name": "Git",
