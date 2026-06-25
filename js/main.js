@@ -11,6 +11,40 @@ async function loadPortfolio() {
     renderStacks();
     renderTimeline();
     renderFooter();
+    setupNavigationObserver();
+
+}
+
+function setupNavigationObserver() {
+    const sections = ["hero","featured","stacks","timeline","projects","articles"]
+        .map(id => document.getElementById(id))
+        .filter(Boolean);
+
+    const links = [...document.querySelectorAll(".top-nav a")];
+
+    const updateActiveSection = () => {
+        const viewportCenter = window.innerHeight / 2;
+
+        let activeIndex = 0;
+        let minDistance = Infinity;
+
+        sections.forEach((section, i) => {
+            const { top, height } = section.getBoundingClientRect();
+            const center = top + height / 2;
+            const distance = Math.abs(viewportCenter - center);
+
+            if (distance < minDistance) {
+                minDistance = distance;
+                activeIndex = i;
+            }
+        });
+
+        links.forEach(l => l.classList.remove("active"));
+        links[activeIndex]?.classList.add("active");
+    };
+
+    window.addEventListener("scroll", updateActiveSection, { passive: true });
+    updateActiveSection();
 }
 
 function renderHero() {
