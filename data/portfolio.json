@@ -69,6 +69,10 @@
                 "logo": "./static/icons/v-ray.ico"
             },
             {
+                "name": "Unreal Engine",
+                "logo": "./static/icons/unreal-engine.webp"
+            },
+            {
                 "name": "3ds Max",
                 "logo": "./static/icons/3ds-max.svg"
             },
@@ -97,11 +101,11 @@
                 "logo": "./static/icons/nuke.ico"
             },
             {
-                "name": "Premiere Pro",
+                "name": "Premiere",
                 "logo": "./static/icons/premiere.webp"
             },
             {
-                "name": "Davinci Resolve",
+                "name": "Davinci",
                 "logo": "./static/icons/davinci-resolve.png"
             },
             {
@@ -109,7 +113,7 @@
                 "logo": "./static/icons/photoshop.png"
             },
             {
-                "name": "Marmoset Toolbag",
+                "name": "Marmoset",
                 "logo": "./static/icons/marmoset-toolbag.png"
             },
             {
@@ -119,14 +123,6 @@
             {
                 "name": "Deadline",
                 "logo": "./static/icons/deadline.png"
-            },
-            {
-                "name": "Arnold",
-                "logo": "./static/icons/arnold.svg"
-            },
-            {
-                "name": "Redshift",
-                "logo": "./static/icons/redshift.ico"
             }
         ],
         "development": [
@@ -195,6 +191,10 @@
                 "logo": "./static/icons/maya-api.svg"
             },
             {
+                "name": "ComfyUI",
+                "logo": "./static/icons/comfyui.png"
+            },
+            {
                 "name": "AYON (R&D)",
                 "logo": "./static/icons/ayon.ico"
             },
@@ -205,6 +205,10 @@
             {
                 "name": "USD (R&D)",
                 "logo": "./static/icons/usd.svg"
+            },
+            {
+                "name": "GwaIO",
+                "logo": "./static/icons/gwaio.ico"
             }
         ]
     },
