@@ -1059,3 +1059,15 @@ h1 {
 .hero {
     padding-top: 2rem;
 }
+
+@media (max-width: 480px) {
+
+    .top-nav {
+        gap: 0.5rem;
+        padding: 0.75rem;
+    }
+
+    .top-nav a {
+        font-size: 0.72rem;
+    }
+}
