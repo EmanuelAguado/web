@@ -240,7 +240,7 @@ function renderTimeline() {
     // Experience section
     content.innerHTML = `
 
-        <section class="timeline-section">
+        <section id="timeline" class="timeline-section">
 
             <h2>Experience</h2>
 
@@ -304,7 +304,7 @@ function renderProjects() {
 
     const projectsSection = `
 
-        <section class="projects-section">
+        <section id="projects" class="projects-section">
 
             <h2>Projects</h2>
 
@@ -344,7 +344,7 @@ function renderArticles() {
 
     const articlesSection = `
 
-        <section class="articles-section">
+        <section id="articles" class="articles-section">
 
             <h2>Articles</h2>
 
