@@ -1,0 +1,2 @@
+- [ ] feature: generar sitemap.xml mediante el json de config 
+- [ ] fix: banner de entidades, hacer composicion con titulo e imagen
