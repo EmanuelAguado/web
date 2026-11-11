@@ -73,6 +73,10 @@
                 "logo": "./static/icons/unreal-engine.webp"
             },
             {
+                "name": "Blender (R&D)",
+                "logo": "./static/icons/blender.png"
+            },
+            {
                 "name": "3ds Max",
                 "logo": "./static/icons/3ds-max.svg"
             },
@@ -195,7 +199,7 @@
                 "logo": "./static/icons/comfyui.png"
             },
             {
-                "name": "AYON (R&D)",
+                "name": "AYON",
                 "logo": "./static/icons/ayon.ico"
             },
             {
@@ -207,6 +211,10 @@
                 "logo": "./static/icons/usd.svg"
             },
             {
+                "name": "OpenRV",
+                "logo": "./static/icons/openrv.png"
+            },
+            {
                 "name": "GwaIO",
                 "logo": "./static/icons/gwaio.ico"
             }
@@ -214,11 +222,30 @@
     },
     "studio": [
         {
+            "id": "people-moving-pixels-v2",
+            "name": "People Moving Pixels",
+            "url": "http://www.peoplemovingpixels.com/",
+            "icon": "fa-solid fa-server",
+            "period": "Jul 2026 - Present",
+            "title": "Pipeline TD",
+            "tags": [
+                "Remote"
+            ],
+            "description": "Full pipeline development and technical support for feature film production, built around AYON and integrated with Blender, Autodesk Maya, Substance 3D Painter and other production tools. Development of pipeline infrastructure, workflows and custom tools for Production, Concept, Modeling, Animation, QA and other departments.",
+            "projects": [
+                "talking-tom-and-friends",
+                "trw"
+            ],
+            "tools": [
+                "AYON"
+            ]
+        },
+        {
             "id": "mondo-tv-studios",
             "name": "Mondo TV Studios // Hi Animation Studio",
             "url": "http://hianimation.com/",
             "icon": "fa-solid fa-code",
-            "period": "Aug 2020 - Present",
+            "period": "Aug 2020 - Jul 2026",
             "title": "Technical Director & Pipeline TD",
             "tags": [
                 "Remote"
@@ -349,6 +376,17 @@
         }
     ],
     "project": [
+        
+        {
+            "id": "trw",
+            "name": "TRW Film (WIP)",
+            "studio": "people-moving-pixels",
+            "thumbnail": "../static/img/trw_banner.webp",
+            "banner": "../static/img/trw_banner.webp",
+            "images": [],
+            "description": "Feature Film.",
+            "content": "../content/projects/trw.md"
+        },
         {
             "id": "nivis",
             "name": "Nivis, amigos de otro mundo",
@@ -399,7 +437,7 @@
         {
             "id": "bikes-the-movie-project",
             "name": "Bikes: The Movie",
-            "studio": "tomavision",
+            "studio": "bikes-the-movie",
             "thumbnail": "../static/img/bk_thumb.webp",
             "banner": "../static/img/bk_banner.webp",
             "images": [],
